@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>1º modulo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-indigo.css">
+<body style="max-width:600px">
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+      <img class="w3-circle" src="logo.jpg" alt="avatar" style="width:50%">
+  </div>
+</div>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">1º Modulo</a>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">2º Modulo</a>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">3º Modulo</a>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">4º Modulo</a>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">Cifras</a>
+<a class="w3-bar-item w3-button w3-hover-indigo" href="#">Dicas de outros estudos</a>
+</nav>
+
+<header class="w3-bar w3-card w3-theme">
+  <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h1 class="w3-bar-item">1º Modulo: iniciantes</h1>
+</header>
+
+<div class="w3-container">
+<hr>
+<div class="w3-cell-row " >
+  <div class="w3-cell" style="width:30%">
+      <a href="partes_do_violão.html"><img class="w3-circle w3-btn" src="498047923.jpg" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Conhecendo as partes do violão</h3>
+    <p>Aprenda todas as peças e partes importantes do instrumento. </p>
+  </div>
+</div>  
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="PosturaPopular.html"><img class="w3-circle w3-btn" src="download.jpg" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container" >
+      <h3 class="w3-text-indigo">Postura Correta</h3>
+    <p>Aprenda o melhor jeito de se posisionar quando for tocar o violão</p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="Cifras_e_Sinais.html"><img class="w3-circle w3-btn" src="cifra.jpg" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Cifras e sinais</h3>
+    <p>Aprenda ler cifras e seus sinais que acompanham </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="#"><img class="w3-circle w3-btn" src="afinar-o-violão.jpg" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Afinação do instrumento</h3>
+    <p>Aprenda como afinar o seu violão </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="#"><img class="w3-circle w3-btn" src="acorde.png" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Acordes maiores</h3>
+    <p>Aprenda os acordes maiores de maneira simples facil </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="#"><img class="w3-circle w3-btn" src="batidabasica-guitar-mode-on.png" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Primeiros Ritmos</h3>
+    <p>Aprenda as suas primeiras batidas e comece a tocar violão </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+      <a href="#"><img class="w3-circle w3-btn" src="praticas.jpg" style="width:100%"></a>
+  </div>
+  <div class="w3-cell w3-container">
+      <h3 class="w3-text-indigo">Pratica musical</h3>
+    <p>Pratique algumas musicas no violão </p>
+  </div>
+</div>
+<hr>
+</div>
+
+<footer class="w3-container w3-theme w3-margin-top">
+  <h3></h3>
+</footer>
+
+<script>
+closeSidebar();
+function openSidebar() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function closeSidebar() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
